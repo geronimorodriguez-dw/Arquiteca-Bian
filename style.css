@@ -1,0 +1,184 @@
+/* --- General --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f5f1ee;
+    color: #3e2f23;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Header --- */
+header {
+    background-color: #c7a17a;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* --- Main --- */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem 1rem;
+}
+
+/* --- Sección presentación --- */
+.presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.presentacion img {
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.presentacion .texto {
+    max-width: 500px;
+}
+
+.presentacion h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #5a3e2b;
+}
+
+.presentacion p {
+    line-height: 1.6;
+}
+
+/* --- Sección BIM (invertida) --- */
+.bim {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #e8dfd3;
+    padding: 2rem 0;
+}
+
+.bim img {
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.bim .texto {
+    max-width: 500px;
+}
+
+.bim h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #5a3e2b;
+}
+
+.bim p {
+    line-height: 1.6;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #c7a17a;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: auto;
+}
+
+.social {
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icon:hover {
+    color: #3e2f23;
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* --- WhatsApp flotante --- */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 2rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+    z-index: 1000;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+/* --- Footer redes --- */
+footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+footer .redes a {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer .redes a:hover {
+    color: #3e2f23;
+    transform: scale(1.2);
+}
+
+
+
